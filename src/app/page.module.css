@@ -21,6 +21,14 @@
 }
 .darkMode .logo{
   filter: invert(1) brightness(2);
+  /*filter: invert(1) brightness(2);:
+  invert(1): Esse filtro inverte as cores da imagem. 
+  Uma cor preta (0, 0, 0) se tornará branca (255, 255, 255), 
+  e vice-versa. O valor 1 indica uma inversão completa.
+  
+  brightness(2): Esse filtro ajusta o brilho da imagem. 
+  O valor 2 indica que o brilho será dobrado, tornando 
+  a imagem duas vezes mais brilhante.*/
 }
 .topo button{
   font-size: 30px;
@@ -36,7 +44,11 @@
 .fotoBanner{
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: cover; 
+  /*object-fit : Faz com que a imagem 
+  preencha completamente o contêiner, 
+  cortando partes da imagem se necessário 
+  para manter a proporção original.*/
 }
 .containerTextos{
   display: flex;
